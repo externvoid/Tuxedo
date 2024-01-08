@@ -1,0 +1,28 @@
+{
+  "docs": {
+    "Getting started": [
+      "docs",
+      "installation",
+      "getting-started",
+      "template-features"
+    ],
+    "Internals": [
+      "how-does-it-work",
+      "extending-tuxedo"
+    ]
+  },
+  "reference": {
+    "Introduction": [
+      "reference"
+    ],
+    "Elements": [
+      "data-types",
+      "variables",
+      "functions",
+      "operators",
+      "global_functions",
+      "object_functions",
+      "tags"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+osx_image: xcode10
+language: swift
+sudo: true
+before_install:
+- nvm use 8
+before_script:
+- pushd website && npm install && popd
+- sh Scripts/git_auth.sh
+script:
+- travis_retry Scripts/ci.sh
+- sleep 3
